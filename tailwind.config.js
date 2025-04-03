@@ -21,4 +21,12 @@ module.exports = {
       addUtilities(newUtilities, ['hover']); // 🟢 Se indica que debe usarse en hover
     },
   ],
+    theme: {
+      extend: {
+        fontFamily: {
+          inter: ["Inter", "sans-serif"],
+        },
+      },
+    },
+
 };
